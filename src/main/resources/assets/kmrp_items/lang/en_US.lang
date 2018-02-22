@@ -1,0 +1,35 @@
+//Items
+item.itemFork.name=Fork
+item.itemFlut.name=Flut
+item.itemGolden_coin.name=Golden coin
+item.itemSilver_coin.name=Silver coin
+item.itemRing.name=Ring
+item.itemRustyfork.name=Rusty fork
+item.itemSpoon.name=Spoon
+item.itemDynamite.name=Dynamite
+item.itemBomb.name=Bomb
+item.itemTin.name=Tin
+item.itemPipe.name=Pipe
+item.itemPhoto.name=Photo
+item.itemCamera.name=Camera
+item.itemCapsule.name=Capsule
+item.itemCharge.name=Charge
+item.itemBullet.name=Bullet
+item.itemRamrod.name=Ramrod
+
+item.itempitchfork.name=Pitchfork
+item.itemclub.name=Club
+item.itemhalberd.name=Halberd
+item.itemknobstick.name=Knobstick
+item.itemmstar.name=Morgenstern
+item.itemsaber.name=Saber
+item.itemscimitar.name=Scimitar
+item.itemscythe.name=Scythe
+item.itemshpaga.name=Shpaga
+item.itemthr_axe.name=Throwing Axe
+item.itemtwo_hand_sword.name=Zweihander
+item.itemflail.name=Flail
+
+//Creative
+itemGroup.KMRPSimpleTab=KMRP Items Tab
+itemGroup.KMRPWeaponTab=KMRP Weapon Tab

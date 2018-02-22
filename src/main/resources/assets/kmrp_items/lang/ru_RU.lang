@@ -1,0 +1,33 @@
+//Items
+item.itemFork.name=Вилка
+item.itemFlut.name=Флейта
+item.itemGolden_coin.name=Золотая монета
+item.itemSilver_coin.name=Серебряная монета
+item.itemRing.name=Кольцо
+item.itemRustyfork.name=Ржавая вилка
+item.itemSpoon.name=Ложка
+item.itemDynamite.name=Динамит
+item.itemBomb.name=Бомба
+item.itemPhoto.name=Фото
+item.itemCamera.name=Камера
+item.itemCapsule.name=Капсюль
+item.itemCharge.name=Заряд
+item.itemBullet.name=Пуля
+item.itemRamrod.name=Шомпол
+
+item.itempitchfork.name=Вилы
+item.itemclub.name=Дубина
+item.itemhalberd.name=Алебарда
+item.itemknobstick.name=Цеп
+item.itemmstar.name=Моргенштерн
+item.itemsaber.name=Сабля
+item.itemscimitar.name=Скимитар
+item.itemscythe.name=Коса
+item.itemshpaga.name=Шпага
+item.itemthr_axe.name=Метательный топор
+item.itemtwo_hand_sword.name=Цвайхандер
+item.itemflail.name=Цеп
+
+//Creative
+itemGroup.KMRPSimpleTab=KMRP Items Tab
+itemGroup.KMRPWeaponTab=KMRP Weapon Tab

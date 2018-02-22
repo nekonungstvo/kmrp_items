@@ -1,0 +1,16 @@
+[
+{
+  "modid": "kmrp_items",
+  "name": "KMRP Items",
+  "description": "KMRP Items",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://konungstvo.ru",
+  "updateUrl": "",
+  "authorList": ["Narg", "La_Volpe_262", "xunto"],
+  "credits": "KMRP",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
