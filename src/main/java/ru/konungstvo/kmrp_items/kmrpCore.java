@@ -72,6 +72,19 @@ public class kmrpCore {
         this.registerSimpleItem("itemBullet", "kmrp_items:bullet");
         this.registerSimpleItem("itemRamrod", "kmrp_items:ramrod");
 
+        this.registerSimpleItem("itemInkwell", "kmrp_items:inkwell");
+        this.registerSimpleItem("itemBasket", "kmrp_items:basket");
+        this.registerSimpleItem("itemBottle", "kmrp_items:bottle");
+        this.registerSimpleItem("itemNeedle", "kmrp_items:needle");
+        this.registerSimpleItem("itemPencil", "kmrp_items:pencil");
+        this.registerSimpleItem("itemSpool", "kmrp_items:spool");
+        this.registerSimpleItem("itemJoint", "kmrp_items:joint");
+        this.registerSimpleItem("itemPint", "kmrp_items:pint");
+        this.registerSimpleItem("itemGoggles", "kmrp_items:goggles");
+        this.registerSimpleItem("itemWoodenCup", "kmrp_items:wooden_cup");
+        this.registerSimpleItem("itemWoodenSpoon", "kmrp_items:wooden_spoon");
+        this.registerSimpleItem("itemWoodenFork", "kmrp_items:wooden_fork");
+
         kmrpCore.weapon_icon = this.registerWeapon("itemscimitar", "kmrp_items:scimitar");
         this.registerWeapon("itempitchfork", "kmrp_items:pitchfork");
         this.registerWeapon("itemclub", "kmrp_items:club");
@@ -84,5 +97,8 @@ public class kmrpCore {
         this.registerWeapon("itemthr_axe", "kmrp_items:thr_axe");
         this.registerWeapon("itemtwo_hand_sword", "kmrp_items:twohanded_sword");
         this.registerWeapon("itemflail", "kmrp_items:flail");
+        this.registerWeapon("itemLance", "kmrp_items:lance");
+        this.registerWeapon("itemTrainingSword", "kmrp_items:training_sword");
+        this.registerWeapon("itemWoodenKnife", "kmrp_items:wooden_knife");
     }
 }
