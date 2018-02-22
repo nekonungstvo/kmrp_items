@@ -1,14 +1,14 @@
 package ru.konungstvo.kmrp_items;
 
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemSword;
 import net.minecraftforge.common.util.EnumHelper;
-import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.Mod.EventHandler;
-import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = kmrpCore.MODID, version = kmrpCore.VERSION, name = kmrpCore.NAME)
 public class kmrpCore {
@@ -77,13 +77,13 @@ public class kmrpCore {
         this.registerSimpleItem("itemBottle", "kmrp_items:bottle");
         this.registerSimpleItem("itemNeedle", "kmrp_items:needle");
         this.registerSimpleItem("itemPencil", "kmrp_items:pencil");
-        this.registerSimpleItem("itemSpool", "kmrp_items:spool");
         this.registerSimpleItem("itemJoint", "kmrp_items:joint");
         this.registerSimpleItem("itemPint", "kmrp_items:pint");
         this.registerSimpleItem("itemGoggles", "kmrp_items:goggles");
         this.registerSimpleItem("itemWoodenCup", "kmrp_items:wooden_cup");
         this.registerSimpleItem("itemWoodenSpoon", "kmrp_items:wooden_spoon");
         this.registerSimpleItem("itemWoodenFork", "kmrp_items:wooden_fork");
+        this.registerItem(new Spool(), "itemSpool", "kmrp_items:spool", KMRPSimpleTab);
 
         kmrpCore.weapon_icon = this.registerWeapon("itemscimitar", "kmrp_items:scimitar");
         this.registerWeapon("itempitchfork", "kmrp_items:pitchfork");
@@ -100,5 +100,6 @@ public class kmrpCore {
         this.registerWeapon("itemLance", "kmrp_items:lance");
         this.registerWeapon("itemTrainingSword", "kmrp_items:training_sword");
         this.registerWeapon("itemWoodenKnife", "kmrp_items:wooden_knife");
+
     }
 }
