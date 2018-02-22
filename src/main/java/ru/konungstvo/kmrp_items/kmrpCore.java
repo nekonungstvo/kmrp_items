@@ -71,7 +71,6 @@ public class kmrpCore {
         this.registerSimpleItem("itemCharge", "kmrp_items:charge");
         this.registerSimpleItem("itemBullet", "kmrp_items:bullet");
         this.registerSimpleItem("itemRamrod", "kmrp_items:ramrod");
-
         this.registerSimpleItem("itemInkwell", "kmrp_items:inkwell");
         this.registerSimpleItem("itemBasket", "kmrp_items:basket");
         this.registerSimpleItem("itemBottle", "kmrp_items:bottle");

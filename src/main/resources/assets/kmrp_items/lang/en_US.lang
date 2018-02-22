@@ -1,6 +1,6 @@
 //Items
 item.itemFork.name=Fork
-item.itemFlut.name=Flut
+item.itemFlut.name=Flute
 item.itemGolden_coin.name=Golden coin
 item.itemSilver_coin.name=Silver coin
 item.itemRing.name=Ring
@@ -16,6 +16,18 @@ item.itemCapsule.name=Capsule
 item.itemCharge.name=Charge
 item.itemBullet.name=Bullet
 item.itemRamrod.name=Ramrod
+item.itemInkwell.name=Inkwell
+item.itemBasket.name=Basket
+item.itemBottle.name=Bottle
+item.itemNeedle.name=Needle
+item.itemPencil.name=Pencil
+item.itemJoint.name=Joint
+item.itemPint.name=Ping
+item.itemGoggles.name=Goggles
+item.itemWoodenCup.name=Wooden Cup
+item.itemWoodenSpoon.name=Wooden Spoon
+item.itemWoodenFork.name=Wooden Fork
+item.itemSpool.name=Spool
 
 item.itempitchfork.name=Pitchfork
 item.itemclub.name=Club
@@ -29,6 +41,9 @@ item.itemshpaga.name=Shpaga
 item.itemthr_axe.name=Throwing Axe
 item.itemtwo_hand_sword.name=Zweihander
 item.itemflail.name=Flail
+item.itemLance.name=Lance
+item.itemTrainingSword.name=Training Sword
+item.itemWoodenKnife.name=Wooden Knife
 
 //Creative
 itemGroup.KMRPSimpleTab=KMRP Items Tab
