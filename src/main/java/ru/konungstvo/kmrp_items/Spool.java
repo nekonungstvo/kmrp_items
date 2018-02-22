@@ -11,7 +11,7 @@ import net.minecraft.util.IIcon;
 public class Spool extends Item {
     private IIcon threadsLayer = null;
 
-    public int getColorFromNBT(ItemStack itemStack) {
+    private int getColorFromNBT(ItemStack itemStack) {
         NBTTagCompound nbttagcompound = itemStack.getTagCompound();
 
         if (nbttagcompound == null) {
