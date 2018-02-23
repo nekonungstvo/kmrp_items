@@ -96,6 +96,5 @@ public class kmrpCore {
         ItemWeapon.register("itemFalx", "kmrp_items:falx");
         ItemWeapon.register("itemChopesh", "kmrp_items:chopesh");
         ItemWeapon.register("itemSling", "kmrp_items:sling");
-
     }
 }
