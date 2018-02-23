@@ -3,16 +3,19 @@ package ru.konungstvo.kmrp_items;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.IIcon;
 
 import java.awt.*;
 
-public class Spool extends Item {
+public class ItemSpool extends ItemSimple {
     private IIcon threadsLayer = null;
     private static int DEFAULT_COLOR = Color.RED.getRGB();
+
+    public ItemSpool(String name, String texture) {
+        super(name, texture);
+    }
 
     private int getColorFromNBT(ItemStack itemStack) {
         NBTTagCompound nbttagcompound = itemStack.getTagCompound();
