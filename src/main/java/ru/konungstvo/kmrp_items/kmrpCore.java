@@ -8,16 +8,16 @@ import net.minecraft.item.Item;
 
 @Mod(modid = kmrpCore.MODID, version = kmrpCore.VERSION, name = kmrpCore.NAME)
 public class kmrpCore {
-    public static final String MODID = "kmrp_items";
-    public static final String NAME = "KMRP Items";
-    public static final String VERSION = "1.1";
+    static final String MODID = "kmrp_items";
+    static final String NAME = "KMRP Items";
+    static final String VERSION = "1.1";
 
 
     private static Item simple_icon;
     private static Item weapon_icon;
 
 
-    protected static CreativeTabs KMRPWeaponTab = new CreativeTabs("KMRPWeaponTab") {
+    static CreativeTabs KMRPWeaponTab = new CreativeTabs("KMRPWeaponTab") {
         public Item getTabIconItem() {
             return kmrpCore.weapon_icon;
         }
