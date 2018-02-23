@@ -15,14 +15,14 @@ public class ItemSpool extends ItemSimple {
     private IIcon threadsLayer = null;
     private static int DEFAULT_COLOR = Color.RED.getRGB();
 
-    public ItemSpool(String name, String texture) {
-        super(name, texture);
-    }
-
     static Item register(String name, String texture) {
         Item item = new ItemSpool(name, texture);
         GameRegistry.registerItem(item, name);
         return item;
+    }
+
+    private ItemSpool(String name, String texture) {
+        super(name, texture);
     }
 
     private int getColorFromNBT(ItemStack itemStack) {

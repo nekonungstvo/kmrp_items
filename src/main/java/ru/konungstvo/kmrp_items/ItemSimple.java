@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 import static ru.konungstvo.kmrp_items.kmrpCore.KMRPSimpleTab;
 
 public class ItemSimple extends Item {
-    public ItemSimple(String name, String texture) {
+    ItemSimple(String name, String texture) {
         super();
         setUnlocalizedName(name);
         setCreativeTab(KMRPSimpleTab);
@@ -18,4 +18,5 @@ public class ItemSimple extends Item {
         GameRegistry.registerItem(item, name);
         return item;
     }
+
 }

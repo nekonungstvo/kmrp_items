@@ -19,7 +19,7 @@ public class ItemWeapon extends ItemSword {
         return item;
     }
 
-    public ItemWeapon(String name, String texture) {
+    private ItemWeapon(String name, String texture) {
         super(NO_MATERIAL);
         setUnlocalizedName(name);
         setCreativeTab(KMRPWeaponTab);
