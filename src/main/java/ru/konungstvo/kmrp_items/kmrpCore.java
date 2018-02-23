@@ -10,7 +10,7 @@ import net.minecraft.item.Item;
 public class kmrpCore {
     static final String MODID = "kmrp_items";
     static final String NAME = "KMRP Items";
-    static final String VERSION = "1.1";
+    static final String VERSION = "1.2";
 
 
     private static Item simple_icon;

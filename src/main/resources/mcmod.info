@@ -7,7 +7,13 @@
   "mcversion": "${mcversion}",
   "url": "https://konungstvo.ru",
   "updateUrl": "",
-  "authorList": ["Narg", "La_Volpe_262", "xunto"],
+  "authorList": [
+    "Narg",
+    "La_Volpe_262",
+    "xunto",
+    "Asphodel",
+    "Xays"
+  ],
   "credits": "KMRP",
   "logoFile": "",
   "screenshots": [],
