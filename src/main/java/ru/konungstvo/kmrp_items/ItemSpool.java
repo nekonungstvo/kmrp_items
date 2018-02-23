@@ -1,8 +1,10 @@
 package ru.konungstvo.kmrp_items;
 
+import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.IIcon;
@@ -15,6 +17,12 @@ public class ItemSpool extends ItemSimple {
 
     public ItemSpool(String name, String texture) {
         super(name, texture);
+    }
+
+    static Item register(String name, String texture) {
+        Item item = new ItemSpool(name, texture);
+        GameRegistry.registerItem(item, name);
+        return item;
     }
 
     private int getColorFromNBT(ItemStack itemStack) {

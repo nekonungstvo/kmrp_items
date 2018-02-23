@@ -11,6 +11,11 @@ public class ItemSimple extends Item {
         setUnlocalizedName(name);
         setCreativeTab(KMRPSimpleTab);
         setTextureName(texture);
-        GameRegistry.registerItem(this, name);
+    }
+
+    static Item register(String name, String texture) {
+        Item item = new ItemSimple(name, texture);
+        GameRegistry.registerItem(item, name);
+        return item;
     }
 }
