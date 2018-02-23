@@ -49,8 +49,8 @@ public class ItemSpool extends ItemSimple {
     @SideOnly(Side.CLIENT)
     public IIcon getIconFromDamageForRenderPass(int damageValue, int renderPass) {
         return renderPass > 0
-                ? threadsLayer :
-                super.getIconFromDamageForRenderPass(damageValue, renderPass);
+                ? threadsLayer
+                : super.getIconFromDamageForRenderPass(damageValue, renderPass);
     }
 
     @Override
