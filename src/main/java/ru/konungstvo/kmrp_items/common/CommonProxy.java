@@ -1,6 +1,8 @@
 package ru.konungstvo.kmrp_items.common;
 
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.event.FMLServerStartingEvent;
+import ru.konungstvo.kmrp_items.common.command.DyeCommand;
 import ru.konungstvo.kmrp_items.common.item.ItemColoredParts;
 import ru.konungstvo.kmrp_items.common.item.ItemSimple;
 import ru.konungstvo.kmrp_items.common.item.ItemWeapon;
@@ -88,5 +90,9 @@ public class CommonProxy {
 
         ItemWeapon.register("itemtwo_hand_sword", "kmrp_items:twohanded_sword");
         ItemWeapon.register("itemTwoHandSwordResized", "kmrp_items:twohanded_sword");
+    }
+
+    public void registerServerCommands(FMLServerStartingEvent event) {
+        event.registerServerCommand(new DyeCommand());
     }
 }
