@@ -74,11 +74,19 @@ public class CommonProxy {
         ItemWeapon.register("itemFalx", "kmrp_items:falx");
         ItemWeapon.register("itemChopesh", "kmrp_items:chopesh");
         ItemWeapon.register("itemSling", "kmrp_items:sling");
+
         ItemWeapon.register("itemhalberd", "kmrp_items:halberd");
+        ItemWeapon.register("itemHalberdResized", "kmrp_items:halberd");
+
         ItemWeapon.register("itemscythe", "kmrp_items:scythe");
-        ItemWeapon.register("itemscytheResized", "kmrp_items:scythe");
+        ItemWeapon.register("itemScytheResized", "kmrp_items:scythe");
+
         ItemWeapon.register("itempitchfork", "kmrp_items:pitchfork");
+        ItemWeapon.register("itemPitchforkResized", "kmrp_items:pitchfork");
+
         ItemWeapon.register("itemLance", "kmrp_items:lance");
+
         ItemWeapon.register("itemtwo_hand_sword", "kmrp_items:twohanded_sword");
+        ItemWeapon.register("itemTwoHandSwordResized", "kmrp_items:twohanded_sword");
     }
 }
