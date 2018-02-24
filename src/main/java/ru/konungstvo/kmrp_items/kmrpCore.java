@@ -5,6 +5,7 @@ import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraftforge.client.MinecraftForgeClient;
 
 @Mod(modid = kmrpCore.MODID, version = kmrpCore.VERSION, name = kmrpCore.NAME)
 public class kmrpCore {
@@ -79,22 +80,33 @@ public class kmrpCore {
         ItemColoredParts.register("itemCloth", "kmrp_items:cloth");
 
         kmrpCore.weapon_icon = ItemWeapon.register("itemscimitar", "kmrp_items:scimitar");
-        ItemWeapon.register("itempitchfork", "kmrp_items:pitchfork");
         ItemWeapon.register("itemclub", "kmrp_items:club");
         ItemWeapon.register("itemsaber", "kmrp_items:saber");
-        ItemWeapon.register("itemhalberd", "kmrp_items:halberd");
         ItemWeapon.register("itemknobstick", "kmrp_items:knobstick");
         ItemWeapon.register("itemmstar", "kmrp_items:m_star");
-        ItemWeapon.register("itemscythe", "kmrp_items:scythe");
         ItemWeapon.register("itemshpaga", "kmrp_items:shpaga");
         ItemWeapon.register("itemthr_axe", "kmrp_items:thr_axe");
-        ItemWeapon.register("itemtwo_hand_sword", "kmrp_items:twohanded_sword");
         ItemWeapon.register("itemflail", "kmrp_items:flail");
-        ItemWeapon.register("itemLance", "kmrp_items:lance");
         ItemWeapon.register("itemTrainingSword", "kmrp_items:training_sword");
         ItemWeapon.register("itemWoodenKnife", "kmrp_items:wooden_knife");
         ItemWeapon.register("itemFalx", "kmrp_items:falx");
         ItemWeapon.register("itemChopesh", "kmrp_items:chopesh");
         ItemWeapon.register("itemSling", "kmrp_items:sling");
+
+        Item item;
+        item = ItemWeapon.register("itemhalberd", "kmrp_items:halberd");
+        MinecraftForgeClient.registerItemRenderer(item, new ScaledItemRenderer(1.5, true));
+
+        item = ItemWeapon.register("itemscythe", "kmrp_items:scythe");
+        MinecraftForgeClient.registerItemRenderer(item, new ScaledItemRenderer(1.5, true));
+
+        item = ItemWeapon.register("itempitchfork", "kmrp_items:pitchfork");
+        MinecraftForgeClient.registerItemRenderer(item, new ScaledItemRenderer(1.5, true));
+
+        item = ItemWeapon.register("itemLance", "kmrp_items:lance");
+        MinecraftForgeClient.registerItemRenderer(item, new ScaledItemRenderer(1.8, false));
+
+        item = ItemWeapon.register("itemtwo_hand_sword", "kmrp_items:twohanded_sword");
+        MinecraftForgeClient.registerItemRenderer(item, new ScaledItemRenderer(1.5, false));
     }
 }
