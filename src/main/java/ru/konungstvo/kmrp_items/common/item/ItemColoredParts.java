@@ -1,4 +1,4 @@
-package ru.konungstvo.kmrp_items;
+package ru.konungstvo.kmrp_items.common.item;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
@@ -19,8 +19,7 @@ public class ItemColoredParts extends ItemSimple {
         super(name, texture);
     }
 
-
-    static Item register(String name, String texture) {
+    public static Item register(String name, String texture) {
         Item item = new ItemColoredParts(name, texture);
         GameRegistry.registerItem(item, name);
         return item;

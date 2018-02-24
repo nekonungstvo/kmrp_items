@@ -1,9 +1,9 @@
-package ru.konungstvo.kmrp_items;
+package ru.konungstvo.kmrp_items.common.item;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
 
-import static ru.konungstvo.kmrp_items.kmrpCore.KMRPSimpleTab;
+import static ru.konungstvo.kmrp_items.common.CommonProxy.KMRPSimpleTab;
 
 public class ItemSimple extends Item {
     ItemSimple(String name, String texture) {
@@ -13,7 +13,7 @@ public class ItemSimple extends Item {
         setTextureName(texture);
     }
 
-    static Item register(String name, String texture) {
+    public static Item register(String name, String texture) {
         Item item = new ItemSimple(name, texture);
         GameRegistry.registerItem(item, name);
         return item;

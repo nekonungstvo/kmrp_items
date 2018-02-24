@@ -1,4 +1,4 @@
-package ru.konungstvo.kmrp_items;
+package ru.konungstvo.kmrp_items.client.renderer;
 
 import net.minecraft.client.renderer.ItemRenderer;
 import net.minecraft.client.renderer.Tessellator;
