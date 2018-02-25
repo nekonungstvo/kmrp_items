@@ -16,7 +16,7 @@ public class ClientProxy extends CommonProxy {
         item = GameRegistry.findItem(kmrpCore.MODID, "itemHalberdResized");
         MinecraftForgeClient.registerItemRenderer(item, new ScaledItemRenderer(1.5, true));
 
-        item = GameRegistry.findItem(kmrpCore.MODID, "itemscytheResized");
+        item = GameRegistry.findItem(kmrpCore.MODID, "itemScytheResized");
         MinecraftForgeClient.registerItemRenderer(item, new ScaledItemRenderer(1.5, true));
 
         item = GameRegistry.findItem(kmrpCore.MODID, "itemPitchforkResized");

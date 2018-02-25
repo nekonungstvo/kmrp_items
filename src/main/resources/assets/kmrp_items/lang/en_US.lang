@@ -63,6 +63,12 @@ item.itemWoodenKnife.name=Wooden knife
 item.itemFalx.name=Falx
 item.itemChopesh.name=Chopesh
 item.itemSling.name=Sling
+item.itemLance.name=Lance
+
+item.itemHalberdResized.name=Halberd (Resized)
+item.itemScytheResized.name=Scythe (Resized)
+item.itemPitchforkResized.name=Pitchfork (Resized)
+item.itemTwoHandSwordResized.name=Zweihander (Resized)
 
 //Creative
 itemGroup.KMRPSimpleTab=KMRP Items Tab
