@@ -49,17 +49,40 @@ public class CommonProxy {
         ItemSimple.register("itemWoodenFork", "kmrp_items:wooden_fork");
         ItemSimple.register("itemCigar", "kmrp_items:cigar");
         ItemSimple.register("itemCigarette", "kmrp_items:cigarette");
-        ItemSimple.register("itemLock", "kmrp_items:lock");
         ItemSimple.register("itemSack", "kmrp_items:sack");
         ItemSimple.register("itemScrewdriver", "kmrp_items:screwdriver");
         ItemSimple.register("itemTabletA", "kmrp_items:tabletA");
         ItemSimple.register("itemTabletB", "kmrp_items:tabletB");
         ItemSimple.register("itemTabletC", "kmrp_items:tabletC");
         ItemSimple.register("itemTabletD", "kmrp_items:tabletD");
+        ItemSimple.register("itemLock", "kmrp_items:lock");
         ItemSimple.register("itemMortiseLock", "kmrp_items:mortise_lock");
+        ItemSimple.register("itemNail", "kmrp_items:nail");
+        ItemSimple.register("itemHook", "kmrp_items:hook");
+        ItemSimple.register("itemToolbox", "kmrp_items:toolbox");
+        ItemSimple.register("itemLeg", "kmrp_items:leg");
+        ItemSimple.register("itemHand", "kmrp_items:hand");
+        ItemSimple.register("itemMop", "kmrp_items:mop");
+        ItemSimple.register("itemLeatherStrips", "kmrp_items:leather_strips");
         ItemColoredParts.register("itemSpool", "kmrp_items:spool");
         ItemColoredParts.register("itemBag", "kmrp_items:bag");
         ItemColoredParts.register("itemCloth", "kmrp_items:cloth");
+
+        // Outfit
+        ItemSimple.register("itemSimpleBelt", "kmrp_items:simple_belt");
+        ItemSimple.register("itemWideBelt", "kmrp_items:wide_belt");
+
+        ItemColoredParts.register("itemGloves", "kmrp_items:gloves");
+        ItemColoredParts.register("itemCotardie", "kmrp_items:cotardie");
+        ItemColoredParts.register("itemCloak", "kmrp_items:cloak");
+        ItemColoredParts.register("itemShirt", "kmrp_items:shirt");
+        ItemColoredParts.register("itemBoots", "kmrp_items:boots");
+        ItemColoredParts.register("itemPants", "kmrp_items:pants");
+        ItemColoredParts.register("itemShossi", "kmrp_items:shossi");
+        ItemColoredParts.register("itemHood", "kmrp_items:hood");
+
+        ItemColoredParts.register("itemBuckleBelt", "kmrp_items:buckle_belt");
+        ItemColoredParts.register("itemClothBelt", "kmrp_items:cloth_belt");
 
         KMRPWeaponTab.setTabIconItem(
                 ItemWeapon.register("itemscimitar", "kmrp_items:scimitar")
@@ -76,20 +99,17 @@ public class CommonProxy {
         ItemWeapon.register("itemFalx", "kmrp_items:falx");
         ItemWeapon.register("itemChopesh", "kmrp_items:chopesh");
         ItemWeapon.register("itemSling", "kmrp_items:sling");
-
+        ItemWeapon.register("itemCane", "kmrp_items:cane");
         ItemWeapon.register("itemhalberd", "kmrp_items:halberd");
         ItemWeapon.register("itemHalberdResized", "kmrp_items:halberd");
-
         ItemWeapon.register("itemscythe", "kmrp_items:scythe");
         ItemWeapon.register("itemScytheResized", "kmrp_items:scythe");
-
         ItemWeapon.register("itempitchfork", "kmrp_items:pitchfork");
         ItemWeapon.register("itemPitchforkResized", "kmrp_items:pitchfork");
-
         ItemWeapon.register("itemLance", "kmrp_items:lance");
-
         ItemWeapon.register("itemtwo_hand_sword", "kmrp_items:twohanded_sword");
         ItemWeapon.register("itemTwoHandSwordResized", "kmrp_items:twohanded_sword");
+        ItemWeapon.register("itemKnuckle", "kmrp_items:knuckle");
     }
 
     public void registerServerCommands(FMLServerStartingEvent event) {

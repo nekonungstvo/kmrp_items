@@ -45,6 +45,26 @@ item.itemMortiseLock.name=Mortise lock
 item.itemSpool.name=Spool with threads
 item.itemBag.name=Bag
 item.itemCloth.name=Cloth
+item.itemPants.name=Pants
+item.itemWideBelt.name=Wide Belt
+item.itemSimpleBelt.name=Simple Belt
+item.itemClothBelt.name=Cloth Belt
+item.itemBuckleBelt.name=Buckle Belt
+item.itemHook.name=Hook
+item.itemBoots.name=Boots
+item.itemLeg.name=Leg
+item.itemHand.name=Hand
+item.itemMop.name=Mop
+item.itemNail.name=Nail
+item.itemGloves.name=Gloves
+item.itemShossi.name=Shossi
+item.itemShirt.name=Shirt
+item.itemCotardie.name=Cotardie
+item.itemToolbox.name=Toolbox
+item.itemCloak.name=Cloak
+item.itemHood.name=Hood
+item.itemLeatherStrips.name=Leather Strips
+
 item.itemscimitar.name=Scimitar
 item.itempitchfork.name=Pitchfork
 item.itemclub.name=Club
@@ -64,11 +84,12 @@ item.itemFalx.name=Falx
 item.itemChopesh.name=Chopesh
 item.itemSling.name=Sling
 item.itemLance.name=Lance
-
 item.itemHalberdResized.name=Halberd (Resized)
 item.itemScytheResized.name=Scythe (Resized)
 item.itemPitchforkResized.name=Pitchfork (Resized)
 item.itemTwoHandSwordResized.name=Zweihander (Resized)
+item.itemKnuckle.name=Knuckle
+item.itemCane.name=Cane
 
 //Creative
 itemGroup.KMRPSimpleTab=KMRP Items Tab

@@ -22,10 +22,16 @@ public class ClientProxy extends CommonProxy {
         item = GameRegistry.findItem(kmrpCore.MODID, "itemPitchforkResized");
         MinecraftForgeClient.registerItemRenderer(item, new ScaledItemRenderer(1.5, true));
 
+        item = GameRegistry.findItem(kmrpCore.MODID, "itemCane");
+        MinecraftForgeClient.registerItemRenderer(item, new ScaledItemRenderer(1.1, true));
+
         item = GameRegistry.findItem(kmrpCore.MODID, "itemLance");
         MinecraftForgeClient.registerItemRenderer(item, new ScaledItemRenderer(1.8, false));
 
         item = GameRegistry.findItem(kmrpCore.MODID, "itemTwoHandSwordResized");
         MinecraftForgeClient.registerItemRenderer(item, new ScaledItemRenderer(1.5, false));
+
+        item = GameRegistry.findItem(kmrpCore.MODID, "itemKnuckle");
+        MinecraftForgeClient.registerItemRenderer(item, new ScaledItemRenderer(0.5, false));
     }
 }
