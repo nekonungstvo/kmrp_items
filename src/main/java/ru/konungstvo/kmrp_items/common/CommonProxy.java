@@ -64,6 +64,7 @@ public class CommonProxy {
         ItemSimple.register("itemHand", "kmrp_items:hand");
         ItemSimple.register("itemMop", "kmrp_items:mop");
         ItemSimple.register("itemLeatherStrips", "kmrp_items:leather_strips");
+        ItemSimple.register("itemClassicRose", "kmrp_items:rose");
         ItemColoredParts.register("itemSpool", "kmrp_items:spool");
         ItemColoredParts.register("itemBag", "kmrp_items:bag");
         ItemColoredParts.register("itemCloth", "kmrp_items:cloth");
