@@ -13,7 +13,7 @@ import java.awt.*;
 
 public class ItemColoredParts extends ItemSimple {
     private IIcon threadsLayer = null;
-    private static int DEFAULT_COLOR = Color.LIGHT_GRAY.getRGB();
+    private static int DEFAULT_COLOR = Color.GRAY.getRGB();
 
     private ItemColoredParts(String name, String texture) {
         super(name, texture);
