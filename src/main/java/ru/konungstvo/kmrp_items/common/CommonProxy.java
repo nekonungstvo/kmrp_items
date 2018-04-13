@@ -1,13 +1,21 @@
 package ru.konungstvo.kmrp_items.common;
 
+import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
+import cpw.mods.fml.common.network.NetworkRegistry;
 import ru.konungstvo.kmrp_items.common.command.DyeCommand;
+import ru.konungstvo.kmrp_items.common.inventory.InventoryGuiHandler;
 import ru.konungstvo.kmrp_items.common.item.ItemColoredParts;
+import ru.konungstvo.kmrp_items.common.item.ItemInventory;
 import ru.konungstvo.kmrp_items.common.item.ItemSimple;
 import ru.konungstvo.kmrp_items.common.item.ItemWeapon;
+import ru.konungstvo.kmrp_items.kmrpCore;
 
 public class CommonProxy {
+    @Mod.Instance(kmrpCore.MODID)
+    private static kmrpCore instance;
+
     public static CreativeTabs KMRPSimpleTab = new CreativeTabs("KMRPSimpleTab");
     public static CreativeTabs KMRPWeaponTab = new CreativeTabs("KMRPWeaponTab");
 
@@ -25,7 +33,6 @@ public class CommonProxy {
         ItemSimple.register("itemSpoon", "kmrp_items:spoon");
         ItemSimple.register("itemDynamite", "kmrp_items:dynamite");
         ItemSimple.register("itemBomb", "kmrp_items:bomb");
-        ItemSimple.register("itemTin", "kmrp_items:tin");
         ItemSimple.register("itemPipe", "kmrp_items:tobacco_pipe");
         ItemSimple.register("itemPhoto", "kmrp_items:photo");
         ItemSimple.register("itemCamera", "kmrp_items:camera");
@@ -35,16 +42,10 @@ public class CommonProxy {
         ItemSimple.register("itemRamrod", "kmrp_items:ramrod");
         ItemSimple.register("itemInkwell", "kmrp_items:inkwell");
         ItemSimple.register("itemBasket", "kmrp_items:basket");
-        ItemSimple.register("itemBottle", "kmrp_items:bottle");
-        ItemSimple.register("itemFlask", "kmrp_items:flask");
         ItemSimple.register("itemNeedle", "kmrp_items:needle");
         ItemSimple.register("itemPencil", "kmrp_items:pencil");
         ItemSimple.register("itemJoint", "kmrp_items:joint");
-        ItemSimple.register("itemPint", "kmrp_items:pint");
-        ItemSimple.register("itemIronPint", "kmrp_items:iron_pint");
-        ItemSimple.register("itemWaterSkin", "kmrp_items:water_skin");
         ItemSimple.register("itemGoggles", "kmrp_items:goggles");
-        ItemSimple.register("itemWoodenCup", "kmrp_items:wooden_cup");
         ItemSimple.register("itemWoodenSpoon", "kmrp_items:wooden_spoon");
         ItemSimple.register("itemWoodenFork", "kmrp_items:wooden_fork");
         ItemSimple.register("itemCigar", "kmrp_items:cigar");
@@ -68,6 +69,15 @@ public class CommonProxy {
         ItemColoredParts.register("itemSpool", "kmrp_items:spool");
         ItemColoredParts.register("itemBag", "kmrp_items:bag");
         ItemColoredParts.register("itemCloth", "kmrp_items:cloth");
+
+        // Containers
+        ItemInventory.register("itemFlask", "kmrp_items:flask");
+        ItemInventory.register("itemBottle", "kmrp_items:bottle");
+        ItemInventory.register("itemPint", "kmrp_items:pint");
+        ItemInventory.register("itemIronPint", "kmrp_items:iron_pint");
+        ItemInventory.register("itemWaterSkin", "kmrp_items:water_skin");
+        ItemInventory.register("itemWoodenCup", "kmrp_items:wooden_cup");
+        ItemInventory.register("itemTin", "kmrp_items:tin");
 
         // Outfit
         ItemSimple.register("itemSimpleBelt", "kmrp_items:simple_belt");
@@ -111,6 +121,8 @@ public class CommonProxy {
         ItemWeapon.register("itemtwo_hand_sword", "kmrp_items:twohanded_sword");
         ItemWeapon.register("itemTwoHandSwordResized", "kmrp_items:twohanded_sword");
         ItemWeapon.register("itemKnuckle", "kmrp_items:knuckle");
+
+        NetworkRegistry.INSTANCE.registerGuiHandler(instance, new InventoryGuiHandler());
     }
 
     public void registerServerCommands(FMLServerStartingEvent event) {
