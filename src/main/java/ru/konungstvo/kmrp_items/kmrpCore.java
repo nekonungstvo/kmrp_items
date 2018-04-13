@@ -10,7 +10,7 @@ import ru.konungstvo.kmrp_items.common.CommonProxy;
 public class kmrpCore {
     public static final String MODID = "kmrp_items";
     static final String NAME = "KMRP Items";
-    static final String VERSION = "1.3";
+    static final String VERSION = "1.6.0";
 
     @SidedProxy(
             clientSide = "ru.konungstvo.kmrp_items.client.ClientProxy",
