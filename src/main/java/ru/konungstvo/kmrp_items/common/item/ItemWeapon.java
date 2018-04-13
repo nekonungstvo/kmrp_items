@@ -9,22 +9,25 @@ import static ru.konungstvo.kmrp_items.common.CommonProxy.KMRPWeaponTab;
 
 
 public class ItemWeapon extends ItemSword {
+    private String name;
+
     private static ToolMaterial NO_MATERIAL = EnumHelper.addToolMaterial(
             "NO_MATERIAL", 0, 1000,
             0.0F, 0.0F, 30
     );
 
-    private ItemWeapon(String name, String texture) {
+    public ItemWeapon(String name, String texture) {
         super(NO_MATERIAL);
         setUnlocalizedName(name);
         setCreativeTab(KMRPWeaponTab);
         setTextureName(texture);
+
+        this.name = name;
     }
 
-    public static Item register(String name, String texture) {
-        Item item = new ItemWeapon(name, texture);
-        GameRegistry.registerItem(item, name);
-        return item;
+    public Item register() {
+        GameRegistry.registerItem(this, this.name);
+        return this;
     }
 
 
