@@ -56,7 +56,6 @@ public class CommonProxy {
         new ItemSimple("itemMortiseLock", "kmrp_items:mortise_lock").register();
         new ItemSimple("itemNail", "kmrp_items:nail").register();
         new ItemSimple("itemHook", "kmrp_items:hook").register();
-        new ItemSimple("itemToolbox", "kmrp_items:toolbox").register();
         new ItemSimple("itemLeg", "kmrp_items:leg").register();
         new ItemSimple("itemHand", "kmrp_items:hand").register();
         new ItemSimple("itemMop", "kmrp_items:mop").register();
@@ -84,6 +83,7 @@ public class CommonProxy {
         new ItemInventory("itemWaterSkin", "kmrp_items:water_skin").register();
         new ItemInventory("itemWoodenCup", "kmrp_items:wooden_cup").register();
         new ItemInventory("itemTin", "kmrp_items:tin").register();
+        new ItemInventory("itemToolbox", "kmrp_items:toolbox").register();
 
         new ItemInventory(
                 "itemBag",
