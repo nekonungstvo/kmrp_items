@@ -21,7 +21,7 @@ public class GuiInventoryItem extends GuiContainer {
     public GuiInventoryItem(int slot, InventoryPlayer inventoryPlayer) {
         super(new ContainerItem(slot, inventoryPlayer));
         this.upperChestInventory = inventoryPlayer;
-        this.lowerChestInventory = ((ContainerItem) this.inventorySlots).getLowerChestInventory();
+        this.lowerChestInventory = ((ContainerItem) this.inventorySlots).getItemInventory();
         this.allowUserInput = false;
         short short1 = 222;
         int i = short1 - 108;
