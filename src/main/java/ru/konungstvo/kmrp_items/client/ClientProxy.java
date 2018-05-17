@@ -33,5 +33,8 @@ public class ClientProxy extends CommonProxy {
 
         item = GameRegistry.findItem(kmrpCore.MODID, "itemKnuckle");
         MinecraftForgeClient.registerItemRenderer(item, new ScaledItemRenderer(0.5, false));
+
+        item = GameRegistry.findItem(kmrpCore.MODID, "itemUrukHaiSword");
+        MinecraftForgeClient.registerItemRenderer(item, new ScaledItemRenderer(1.3, false));
     }
 }

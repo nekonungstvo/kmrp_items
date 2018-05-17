@@ -44,6 +44,10 @@ item.itemTabletD.name=Tablet D
 item.itemMortiseLock.name=Mortise lock
 item.itemSpool.name=Spool with threads
 item.itemBag.name=Bag
+item.itemBag01.name=Bag
+item.itemBag02.name=Bag
+item.itemBag03.name=Bag
+item.itemBag04.name=Bag
 item.itemCloth.name=Cloth
 item.itemPants.name=Pants
 item.itemWideBelt.name=Wide Belt
@@ -91,6 +95,8 @@ item.itemPitchforkResized.name=Pitchfork (Resized)
 item.itemTwoHandSwordResized.name=Zweihander (Resized)
 item.itemKnuckle.name=Knuckle
 item.itemCane.name=Cane
+item.itemElvenDagger.name=Elven Dagger
+item.itemUrukHaiSword.name=Uruk Hai Sword
 
 //Creative
 itemGroup.KMRPSimpleTab=KMRP Items Tab

@@ -61,6 +61,7 @@ public class CommonProxy {
         new ItemSimple("itemMop", "kmrp_items:mop").register();
         new ItemSimple("itemLeatherStrips", "kmrp_items:leather_strips").register();
         new ItemSimple("itemClassicRose", "kmrp_items:rose").register();
+        new ItemSimple("itemComb", "kmrp_items:comb").register();
         new ItemSimple(
                 "itemSpool",
                 "kmrp_items:spool",
@@ -85,6 +86,10 @@ public class CommonProxy {
         new ItemInventory("itemTin", "kmrp_items:tin").register();
         new ItemInventory("itemToolbox", "kmrp_items:toolbox").register();
 
+        new ItemInventory("itemBag01", "kmrp_items:bag01").register();
+        new ItemInventory("itemBag02", "kmrp_items:bag02").register();
+        new ItemInventory("itemBag03", "kmrp_items:bag03").register();
+        new ItemInventory("itemBag04", "kmrp_items:bag04").register();
         new ItemInventory(
                 "itemBag",
                 "kmrp_items:bag",
@@ -182,6 +187,8 @@ public class CommonProxy {
         new ItemWeapon("itemtwo_hand_sword", "kmrp_items:twohanded_sword").register();
         new ItemWeapon("itemTwoHandSwordResized", "kmrp_items:twohanded_sword").register();
         new ItemWeapon("itemKnuckle", "kmrp_items:knuckle").register();
+        new ItemWeapon("itemElvenDagger", "kmrp_items:elven_dagger").register();
+        new ItemWeapon("itemUrukHaiSword", "kmrp_items:uruk_hai_sword").register();
 
         NetworkRegistry.INSTANCE.registerGuiHandler(instance, new InventoryGuiHandler());
     }
