@@ -86,14 +86,35 @@ public class CommonProxy {
         new ItemInventory("itemTin", "kmrp_items:tin").register();
         new ItemInventory("itemToolbox", "kmrp_items:toolbox").register();
 
+        new ItemInventory("itemPouch", "kmrp_items:pouch").register();
+
         new ItemInventory("itemBag01", "kmrp_items:bag01").register();
         new ItemInventory("itemBag02", "kmrp_items:bag02").register();
         new ItemInventory("itemBag03", "kmrp_items:bag03").register();
         new ItemInventory("itemBag04", "kmrp_items:bag04").register();
+
         new ItemInventory(
                 "itemBag",
                 "kmrp_items:bag",
                 "kmrp_items:bag_overlay"
+        ).register();
+
+        new ItemInventory(
+                "itemBottleWine",
+                "kmrp_items:bottle_wine",
+                "kmrp_items:bottle_wine_overlay"
+        ).register();
+
+        new ItemInventory(
+                "itemPhial",
+                "kmrp_items:phial",
+                "kmrp_items:phial_overlay"
+        ).register();
+
+        new ItemInventory(
+                "itemPhial2",
+                "kmrp_items:phial2",
+                "kmrp_items:phial2_overlay"
         ).register();
 
         // Outfit
