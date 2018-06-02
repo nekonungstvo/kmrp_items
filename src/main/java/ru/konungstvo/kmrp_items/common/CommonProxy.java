@@ -27,7 +27,6 @@ public class CommonProxy {
         new ItemSimple("itemSilver_coin", "kmrp_items:silver_coin").register();
         new ItemSimple("itemCopper_coin", "kmrp_items:copper_coin").register();
         new ItemSimple("itemWooden_coin", "kmrp_items:wooden_coin").register();
-        new ItemSimple("itemRing", "kmrp_items:ring").register();
         new ItemSimple("itemRustyfork", "kmrp_items:rusty_fork").register();
         new ItemSimple("itemSpoon", "kmrp_items:spoon").register();
         new ItemSimple("itemDynamite", "kmrp_items:dynamite").register();
@@ -63,6 +62,11 @@ public class CommonProxy {
         new ItemSimple("itemClassicRose", "kmrp_items:rose").register();
         new ItemSimple("itemComb", "kmrp_items:comb").register();
         new ItemSimple(
+                "itemRing",
+                "kmrp_items:ring",
+                "kmrp_items:ring"
+        ).register();
+        new ItemSimple(
                 "itemSpool",
                 "kmrp_items:spool",
                 "kmrp_items:spool_overlay"
@@ -70,7 +74,7 @@ public class CommonProxy {
         new ItemSimple(
                 "itemCloth",
                 "kmrp_items:cloth",
-                "kmrp_items:cloth_overlay"
+                "kmrp_items:cloth"
         ).register();
 
         // Containers
@@ -124,7 +128,7 @@ public class CommonProxy {
         new ItemSimple(
                 "itemGloves",
                 "kmrp_items:gloves",
-                "kmrp_items:gloves_overlay"
+                "kmrp_items:gloves"
         ).register();
 
         new ItemSimple(
@@ -136,25 +140,25 @@ public class CommonProxy {
         new ItemSimple(
                 "itemCloak",
                 "kmrp_items:cloak",
-                "kmrp_items:cloak_overlay"
+                "kmrp_items:cloak"
         ).register();
 
         new ItemSimple(
                 "itemShirt",
                 "kmrp_items:shirt",
-                "kmrp_items:shirt_overlay"
+                "kmrp_items:shirt"
         ).register();
 
         new ItemSimple(
                 "itemBoots",
                 "kmrp_items:boots",
-                "kmrp_items:boots_overlay"
+                "kmrp_items:boots"
         ).register();
 
         new ItemSimple(
                 "itemPants",
                 "kmrp_items:pants",
-                "kmrp_items:pants_overlay"
+                "kmrp_items:pants"
         ).register();
 
         new ItemSimple(
@@ -166,7 +170,7 @@ public class CommonProxy {
         new ItemSimple(
                 "itemHood",
                 "kmrp_items:hood",
-                "kmrp_items:hood_overlay"
+                "kmrp_items:hood"
         ).register();
 
         new ItemSimple(
@@ -178,7 +182,7 @@ public class CommonProxy {
         new ItemSimple(
                 "itemClothBelt",
                 "kmrp_items:cloth_belt",
-                "kmrp_items:cloth_belt_overlay"
+                "kmrp_items:cloth_belt"
         ).register();
 
         // Weapons

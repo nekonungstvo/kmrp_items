@@ -14,7 +14,7 @@ import java.awt.*;
 import static ru.konungstvo.kmrp_items.common.CommonProxy.KMRPSimpleTab;
 
 public class ItemSimple extends Item {
-    private static int DEFAULT_COLOR = Color.GRAY.getRGB();
+    private static int DEFAULT_COLOR = Color.LIGHT_GRAY.getRGB();
 
     private String name;
     private String texture;
