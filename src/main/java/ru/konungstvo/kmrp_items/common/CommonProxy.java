@@ -61,11 +61,8 @@ public class CommonProxy {
         new ItemSimple("itemLeatherStrips", "kmrp_items:leather_strips").register();
         new ItemSimple("itemClassicRose", "kmrp_items:rose").register();
         new ItemSimple("itemComb", "kmrp_items:comb").register();
-        new ItemSimple(
-                "itemRing",
-                "kmrp_items:ring",
-                "kmrp_items:ring"
-        ).register();
+        new ItemSimple("itemHourglass", "kmrp_items:hourglass").register();
+        new ItemSimple("itemSwine", "kmrp_items:swine").register();
         new ItemSimple(
                 "itemSpool",
                 "kmrp_items:spool",
@@ -97,6 +94,12 @@ public class CommonProxy {
         new ItemInventory("itemBag03", "kmrp_items:bag03").register();
         new ItemInventory("itemBag04", "kmrp_items:bag04").register();
 
+        new ItemInventory("itemCasket", "kmrp_items:casket").register();
+
+        new ItemInventory("itemTeapot01", "kmrp_items:teapot01").register();
+        new ItemInventory("itemTeapot02", "kmrp_items:teapot02").register();
+        new ItemInventory("itemTeapot03", "kmrp_items:teapot03").register();
+
         new ItemInventory(
                 "itemBag",
                 "kmrp_items:bag",
@@ -124,6 +127,7 @@ public class CommonProxy {
         // Outfit
         new ItemSimple("itemSimpleBelt", "kmrp_items:simple_belt").register();
         new ItemSimple("itemWideBelt", "kmrp_items:wide_belt").register();
+        new ItemSimple("itemRomanHelm", "kmrp_items:roman_helm").register();
 
         new ItemSimple(
                 "itemGloves",
@@ -185,6 +189,18 @@ public class CommonProxy {
                 "kmrp_items:cloth_belt"
         ).register();
 
+        new ItemSimple(
+                "itemRing",
+                "kmrp_items:ring",
+                "kmrp_items:ring"
+        ).register();
+
+        new ItemSimple(
+                "itemVest",
+                "kmrp_items:vest",
+                "kmrp_items:vest"
+        ).register();
+
         // Weapons
         KMRPWeaponTab.setTabIconItem(
                 new ItemWeapon("itemscimitar", "kmrp_items:scimitar").register()
@@ -214,6 +230,18 @@ public class CommonProxy {
         new ItemWeapon("itemKnuckle", "kmrp_items:knuckle").register();
         new ItemWeapon("itemElvenDagger", "kmrp_items:elven_dagger").register();
         new ItemWeapon("itemUrukHaiSword", "kmrp_items:uruk_hai_sword").register();
+        new ItemWeapon("itemButcherAxe", "kmrp_items:butcher_axe").register();
+        new ItemWeapon("itemTableKnife", "kmrp_items:table_knife").register();
+        new ItemWeapon("itemKitchenKnife", "kmrp_items:kitchen_knife").register();
+        new ItemWeapon("itemSaberElven", "kmrp_items:saber_elven").register();
+
+        new ItemWeapon("itemRomanSword", "kmrp_items:roman_sword").register();
+        new ItemWeapon("itemRomanSpear", "kmrp_items:roman_spear").register();
+        new ItemWeapon("itemRomanShield", "kmrp_items:roman_shield").register();
+
+        new ItemWeapon("itemAquila01", "kmrp_items:aquila01").register();
+        new ItemWeapon("itemAquila02", "kmrp_items:aquila02").register();
+        new ItemWeapon("itemAquila03", "kmrp_items:aquila03").register();
 
         NetworkRegistry.INSTANCE.registerGuiHandler(instance, new InventoryGuiHandler());
     }
