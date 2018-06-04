@@ -46,7 +46,7 @@ public class UniversalRenderer implements IItemRenderer {
                 GL11.glRotated(this.rotation.xCoord, 1, 1, 0);
                 GL11.glRotated(this.rotation.yCoord, 0, 0, 1);
                 GL11.glRotated(this.rotation.zCoord, 1, -1, 0);
-                GL11.glTranslated(-0.5, -0.4, 0);
+                GL11.glTranslated(-0.5, -0.3, 0);
 
                 GL11.glTranslated(
                         scale_shift + this.scale * this.shift,
