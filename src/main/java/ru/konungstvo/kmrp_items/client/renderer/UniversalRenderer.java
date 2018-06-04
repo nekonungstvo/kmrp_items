@@ -10,11 +10,9 @@ import net.minecraftforge.client.IItemRenderer;
 import org.lwjgl.opengl.GL11;
 
 public class UniversalRenderer implements IItemRenderer {
-    private Vec3 rotation;
+    private final Vec3 rotation;
     private final double shift;
     private final double scale;
-
-    private double i = 0;
 
     public UniversalRenderer(Vec3 rotation, double shift, double scale) {
         this.rotation = rotation;
