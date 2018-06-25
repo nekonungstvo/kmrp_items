@@ -61,8 +61,10 @@ public class CommonProxy {
         new ItemSimple("itemLeatherStrips", "kmrp_items:leather_strips").register();
         new ItemSimple("itemClassicRose", "kmrp_items:rose").register();
         new ItemSimple("itemComb", "kmrp_items:comb").register();
+
         new ItemSimple("itemHourglass", "kmrp_items:hourglass").register();
         new ItemSimple("itemSwine", "kmrp_items:swine").register();
+
         new ItemSimple(
                 "itemSpool",
                 "kmrp_items:spool",
@@ -71,7 +73,7 @@ public class CommonProxy {
         new ItemSimple(
                 "itemCloth",
                 "kmrp_items:cloth",
-                "kmrp_items:cloth"
+                "kmrp_items:cloth_overlay"
         ).register();
 
         // Containers
@@ -132,7 +134,7 @@ public class CommonProxy {
         new ItemSimple(
                 "itemGloves",
                 "kmrp_items:gloves",
-                "kmrp_items:gloves"
+                "kmrp_items:gloves_overlay"
         ).register();
 
         new ItemSimple(
@@ -144,25 +146,25 @@ public class CommonProxy {
         new ItemSimple(
                 "itemCloak",
                 "kmrp_items:cloak",
-                "kmrp_items:cloak"
+                "kmrp_items:cloak_overlay"
         ).register();
 
         new ItemSimple(
                 "itemShirt",
                 "kmrp_items:shirt",
-                "kmrp_items:shirt"
+                "kmrp_items:shirt_overlay"
         ).register();
 
         new ItemSimple(
                 "itemBoots",
                 "kmrp_items:boots",
-                "kmrp_items:boots"
+                "kmrp_items:boots_overlay"
         ).register();
 
         new ItemSimple(
                 "itemPants",
                 "kmrp_items:pants",
-                "kmrp_items:pants"
+                "kmrp_items:pants_overlay"
         ).register();
 
         new ItemSimple(
@@ -174,7 +176,7 @@ public class CommonProxy {
         new ItemSimple(
                 "itemHood",
                 "kmrp_items:hood",
-                "kmrp_items:hood"
+                "kmrp_items:hood_overlay"
         ).register();
 
         new ItemSimple(
@@ -186,13 +188,13 @@ public class CommonProxy {
         new ItemSimple(
                 "itemClothBelt",
                 "kmrp_items:cloth_belt",
-                "kmrp_items:cloth_belt"
+                "kmrp_items:cloth_belt_overlay"
         ).register();
 
         new ItemSimple(
                 "itemRing",
                 "kmrp_items:ring",
-                "kmrp_items:ring"
+                "kmrp_items:ring_overlay"
         ).register();
 
         new ItemSimple(
