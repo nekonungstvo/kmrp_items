@@ -7,7 +7,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.ChatComponentText;
-import tv.twitch.chat.Chat;
+import ru.konungstvo.kmrp_items.common.Permissions;
 
 import java.awt.*;
 import java.util.List;
@@ -107,7 +107,7 @@ public class DyeCommand implements ICommand {
     @Override
     public boolean canCommandSenderUseCommand(ICommandSender iCommandSender) {
         EntityPlayerMP player = (EntityPlayerMP) iCommandSender;
-        return MinecraftServer.getServer().getConfigurationManager().func_152596_g(player.getGameProfile());
+        return Permissions.has(player, "km_items.dye") || MinecraftServer.getServer().getConfigurationManager().func_152596_g(player.getGameProfile());
     }
 
     @Override

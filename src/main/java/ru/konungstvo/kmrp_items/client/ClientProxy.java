@@ -32,6 +32,9 @@ public class ClientProxy extends CommonProxy {
         item = GameRegistry.findItem(kmrpCore.MODID, "itemRomanShield");
         MinecraftForgeClient.registerItemRenderer(item, new ShieldRender());
 
+        item = GameRegistry.findItem(kmrpCore.MODID, "itemRomanShield2");
+        MinecraftForgeClient.registerItemRenderer(item, new ShieldRender());
+
         UniversalRenderer spear_like_render = new ScaledItemRenderer(1.5, true);
         item = GameRegistry.findItem(kmrpCore.MODID, "itemHalberdResized");
         MinecraftForgeClient.registerItemRenderer(item, spear_like_render);
@@ -50,7 +53,13 @@ public class ClientProxy extends CommonProxy {
         item = GameRegistry.findItem(kmrpCore.MODID, "itemUrukHaiSword");
         MinecraftForgeClient.registerItemRenderer(item, bastard_render);
 
+        item = GameRegistry.findItem(kmrpCore.MODID, "itemUrukHaiSword2");
+        MinecraftForgeClient.registerItemRenderer(item, bastard_render);
+
         item = GameRegistry.findItem(kmrpCore.MODID, "itemSaberElven");
+        MinecraftForgeClient.registerItemRenderer(item, bastard_render);
+
+        item = GameRegistry.findItem(kmrpCore.MODID, "itemSaberElven2");
         MinecraftForgeClient.registerItemRenderer(item, bastard_render);
 
         UniversalRenderer aquila_render = new AquilaRender();

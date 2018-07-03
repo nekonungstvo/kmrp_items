@@ -15,6 +15,8 @@ public class CommonProxy {
     @Mod.Instance(kmrpCore.MODID)
     private static kmrpCore instance;
 
+    private static Permissions permissionLoader = new Permissions();
+
     public static CreativeTabs KMRPSimpleTab = new CreativeTabs("KMRPSimpleTab");
     public static CreativeTabs KMRPWeaponTab = new CreativeTabs("KMRPWeaponTab");
 
@@ -28,7 +30,6 @@ public class CommonProxy {
         new ItemSimple("itemCopper_coin", "kmrp_items:copper_coin").register();
         new ItemSimple("itemWooden_coin", "kmrp_items:wooden_coin").register();
         new ItemSimple("itemRustyfork", "kmrp_items:rusty_fork").register();
-        new ItemSimple("itemSpoon", "kmrp_items:spoon").register();
         new ItemSimple("itemDynamite", "kmrp_items:dynamite").register();
         new ItemSimple("itemBomb", "kmrp_items:bomb").register();
         new ItemSimple("itemPipe", "kmrp_items:tobacco_pipe").register();
@@ -66,6 +67,11 @@ public class CommonProxy {
         new ItemSimple("itemSwine", "kmrp_items:swine").register();
 
         new ItemSimple(
+                "itemSpoon",
+                "kmrp_items:spoon"
+        ).register();
+
+        new ItemSimple(
                 "itemSpool",
                 "kmrp_items:spool",
                 "kmrp_items:spool_overlay"
@@ -73,7 +79,7 @@ public class CommonProxy {
         new ItemSimple(
                 "itemCloth",
                 "kmrp_items:cloth",
-                "kmrp_items:cloth_overlay"
+                "kmrp_items:cloth"
         ).register();
 
         // Containers
@@ -116,14 +122,32 @@ public class CommonProxy {
 
         new ItemInventory(
                 "itemPhial",
-                "kmrp_items:phial",
-                "kmrp_items:phial_overlay"
+                "kmrp_items:phial_1",
+                "kmrp_items:phial_1_overlay"
         ).register();
 
         new ItemInventory(
                 "itemPhial2",
-                "kmrp_items:phial2",
-                "kmrp_items:phial2_overlay"
+                "kmrp_items:phial_2",
+                "kmrp_items:phial_2_overlay"
+        ).register();
+
+        new ItemInventory(
+                "itemGoblet",
+                "kmrp_items:goblet",
+                "kmrp_items:goblet"
+        ).register();
+
+        new ItemInventory(
+                "itemEnvelope",
+                "kmrp_items:envelope",
+                "kmrp_items:envelope"
+        ).register();
+
+        new ItemInventory(
+                "itemPaperPile",
+                "kmrp_items:paper_pile",
+                "kmrp_items:paper_pile"
         ).register();
 
         // Outfit
@@ -134,7 +158,7 @@ public class CommonProxy {
         new ItemSimple(
                 "itemGloves",
                 "kmrp_items:gloves",
-                "kmrp_items:gloves_overlay"
+                "kmrp_items:gloves"
         ).register();
 
         new ItemSimple(
@@ -146,25 +170,25 @@ public class CommonProxy {
         new ItemSimple(
                 "itemCloak",
                 "kmrp_items:cloak",
-                "kmrp_items:cloak_overlay"
+                "kmrp_items:cloak"
         ).register();
 
         new ItemSimple(
                 "itemShirt",
                 "kmrp_items:shirt",
-                "kmrp_items:shirt_overlay"
+                "kmrp_items:shirt"
         ).register();
 
         new ItemSimple(
                 "itemBoots",
                 "kmrp_items:boots",
-                "kmrp_items:boots_overlay"
+                "kmrp_items:boots"
         ).register();
 
         new ItemSimple(
                 "itemPants",
                 "kmrp_items:pants",
-                "kmrp_items:pants_overlay"
+                "kmrp_items:pants"
         ).register();
 
         new ItemSimple(
@@ -176,7 +200,7 @@ public class CommonProxy {
         new ItemSimple(
                 "itemHood",
                 "kmrp_items:hood",
-                "kmrp_items:hood_overlay"
+                "kmrp_items:hood"
         ).register();
 
         new ItemSimple(
@@ -188,19 +212,26 @@ public class CommonProxy {
         new ItemSimple(
                 "itemClothBelt",
                 "kmrp_items:cloth_belt",
-                "kmrp_items:cloth_belt_overlay"
+                "kmrp_items:cloth_belt"
         ).register();
 
         new ItemSimple(
                 "itemRing",
                 "kmrp_items:ring",
-                "kmrp_items:ring_overlay"
+                "kmrp_items:ring"
         ).register();
 
         new ItemSimple(
                 "itemVest",
                 "kmrp_items:vest",
                 "kmrp_items:vest"
+        ).register();
+
+
+        new ItemSimple(
+                "itemDiadem",
+                "kmrp_items:diadem",
+                "kmrp_items:diadem_overlay"
         ).register();
 
         // Weapons
@@ -230,16 +261,29 @@ public class CommonProxy {
         new ItemWeapon("itemtwo_hand_sword", "kmrp_items:twohanded_sword").register();
         new ItemWeapon("itemTwoHandSwordResized", "kmrp_items:twohanded_sword").register();
         new ItemWeapon("itemKnuckle", "kmrp_items:knuckle").register();
-        new ItemWeapon("itemElvenDagger", "kmrp_items:elven_dagger").register();
-        new ItemWeapon("itemUrukHaiSword", "kmrp_items:uruk_hai_sword").register();
         new ItemWeapon("itemButcherAxe", "kmrp_items:butcher_axe").register();
         new ItemWeapon("itemTableKnife", "kmrp_items:table_knife").register();
         new ItemWeapon("itemKitchenKnife", "kmrp_items:kitchen_knife").register();
-        new ItemWeapon("itemSaberElven", "kmrp_items:saber_elven").register();
 
-        new ItemWeapon("itemRomanSword", "kmrp_items:roman_sword").register();
+        // Elven weapon
+        new ItemWeapon("itemElvenDagger", "kmrp_items:elven_dagger").register();
+
+        new ItemWeapon("itemSaberElven", "kmrp_items:elven_saber_1").register();
+        new ItemWeapon("itemSaberElven2", "kmrp_items:elven_saber_2").register();
+
+        // Ork weapon
+        new ItemWeapon("itemUrukHaiSword", "kmrp_items:uruk_hai_sword_1").register();
+        new ItemWeapon("itemUrukHaiSword2", "kmrp_items:uruk_hai_sword_2").register();
+
+        // Romanian weapon
+        new ItemWeapon("itemRomanSword", "kmrp_items:roman_sword_1").register();
+        new ItemWeapon("itemRomanSword2", "kmrp_items:roman_sword_2").register();
+        new ItemWeapon("itemRomanSword3", "kmrp_items:roman_sword_3").register();
+
         new ItemWeapon("itemRomanSpear", "kmrp_items:roman_spear").register();
-        new ItemWeapon("itemRomanShield", "kmrp_items:roman_shield").register();
+
+        new ItemWeapon("itemRomanShield", "kmrp_items:roman_shield_1").register();
+        new ItemWeapon("itemRomanShield2", "kmrp_items:roman_shield_2").register();
 
         new ItemWeapon("itemAquila01", "kmrp_items:aquila01").register();
         new ItemWeapon("itemAquila02", "kmrp_items:aquila02").register();
