@@ -11,10 +11,12 @@ import org.lwjgl.opengl.GL11;
 
 public class UniversalRenderer implements IItemRenderer {
     private final Vec3 rotation;
-    private final double shift;
+    private final Vec3 shift;
     private final double scale;
 
-    public UniversalRenderer(Vec3 rotation, double shift, double scale) {
+    private double tmp = 0;
+
+    public UniversalRenderer(Vec3 rotation, Vec3 shift, double scale) {
         this.rotation = rotation;
         this.shift = shift;
         this.scale = scale;
@@ -30,6 +32,28 @@ public class UniversalRenderer implements IItemRenderer {
         return false;
     }
 
+    private void rotate() {
+        GL11.glRotated(this.rotation.xCoord, 1, 1, 0);
+        GL11.glRotated(this.rotation.yCoord, 0, 0, 1);
+        GL11.glRotated(this.rotation.zCoord, 1, -1, 0);
+    }
+
+    private void translate() {
+        double xShift = this.shift.xCoord;
+        double yShift = this.shift.yCoord * Math.sqrt(0.5);
+        double zShift = this.shift.zCoord;
+
+        GL11.glTranslated(
+                zShift + yShift,
+                zShift - yShift,
+                xShift
+        );
+    }
+
+    private void scale() {
+        GL11.glScaled(scale, scale, 1);
+    }
+
     @Override
     public void renderItem(ItemRenderType type, ItemStack itemStack, Object... data) {
         Item item = itemStack.getItem();
@@ -40,21 +64,11 @@ public class UniversalRenderer implements IItemRenderer {
             IIcon icon = item.getIconIndex(itemStack);
 
             if (type == ItemRenderType.EQUIPPED) {
-                double scale_shift = 1 - scale;
-
-                GL11.glTranslated(0.5, 0.3, 0);
-                GL11.glRotated(this.rotation.xCoord, 1, 1, 0);
-                GL11.glRotated(this.rotation.yCoord, 0, 0, 1);
-                GL11.glRotated(this.rotation.zCoord, 1, -1, 0);
-                GL11.glTranslated(-0.5, -0.3, 0);
-
-                GL11.glTranslated(
-                        scale_shift + this.scale * this.shift,
-                        -this.scale * this.shift,
-                        0
-                );
-
-                GL11.glScaled(scale, scale, 1);
+                GL11.glTranslated(0.5, 0.5, 0);
+                this.rotate();
+                this.scale();
+                this.translate();
+                GL11.glTranslated(-0.5, -0.5, 0);
             }
 
             Tessellator tessellator = Tessellator.instance;

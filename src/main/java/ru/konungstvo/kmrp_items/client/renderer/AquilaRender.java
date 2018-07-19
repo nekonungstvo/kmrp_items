@@ -6,7 +6,7 @@ public class AquilaRender extends UniversalRenderer {
     public AquilaRender() {
         super(
                 Vec3.createVectorHelper(0, 50, 0),
-                0.15,
+                Vec3.createVectorHelper(0, -0.32,0),
                 3
         );
     }

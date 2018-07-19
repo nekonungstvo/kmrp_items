@@ -227,11 +227,22 @@ public class CommonProxy {
                 "kmrp_items:vest"
         ).register();
 
-
         new ItemSimple(
                 "itemDiadem",
                 "kmrp_items:diadem",
                 "kmrp_items:diadem_overlay"
+        ).register();
+
+        new ItemSimple(
+                "itemCog",
+                "kmrp_items:cog",
+                "kmrp_items:cog"
+        ).register();
+
+        new ItemSimple(
+                "itemCrystal",
+                "kmrp_items:crystal",
+                "kmrp_items:crystal"
         ).register();
 
         // Weapons
@@ -264,6 +275,15 @@ public class CommonProxy {
         new ItemWeapon("itemButcherAxe", "kmrp_items:butcher_axe").register();
         new ItemWeapon("itemTableKnife", "kmrp_items:table_knife").register();
         new ItemWeapon("itemKitchenKnife", "kmrp_items:kitchen_knife").register();
+
+        // Bows
+        new ItemWeapon("itemBow01", "kmrp_items:bow_1").register();
+        new ItemWeapon("itemBow02", "kmrp_items:bow_2").register();
+        new ItemWeapon("itemBow03", "kmrp_items:bow_3").register();
+
+        new ItemWeapon("itemLongBow01", "kmrp_items:bow_1").register();
+        new ItemWeapon("itemLongBow02", "kmrp_items:bow_2").register();
+        new ItemWeapon("itemLongBow03", "kmrp_items:bow_3").register();
 
         // Elven weapon
         new ItemWeapon("itemElvenDagger", "kmrp_items:elven_dagger").register();
