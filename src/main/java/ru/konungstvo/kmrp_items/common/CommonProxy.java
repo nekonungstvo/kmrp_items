@@ -21,6 +21,7 @@ public class CommonProxy {
     public static CreativeTabs KMRPWeaponTab = new CreativeTabs("KMRPWeaponTab");
 
     public void preInit(FMLPreInitializationEvent event) {
+    //Misc
         KMRPSimpleTab.setTabIconItem(
                 new ItemSimple("itemFork", "kmrp_items:fork").register()
         );
@@ -81,6 +82,13 @@ public class CommonProxy {
                 "kmrp_items:cloth",
                 "kmrp_items:cloth"
         ).register();
+        new ItemSimple("itemScalpel", "kmrp_items:scalpel").register();
+        new ItemSimple(
+                "itemIgnot", 
+                "kmrp_items:ignot",
+                "kmrp_items:ignot_overlay"
+        ).register();
+
 
         // Containers
         new ItemInventory("itemSack", "kmrp_items:sack").register();
@@ -275,6 +283,9 @@ public class CommonProxy {
         new ItemWeapon("itemButcherAxe", "kmrp_items:butcher_axe").register();
         new ItemWeapon("itemTableKnife", "kmrp_items:table_knife").register();
         new ItemWeapon("itemKitchenKnife", "kmrp_items:kitchen_knife").register();
+        new ItemWeapon("itemStiletto", "kmrp_items:stiletto").register();
+        new ItemWeapon("itemStiletto2", "kmrp_items:stiletto2").register();
+
 
         // Bows
         new ItemWeapon("itemBow01", "kmrp_items:bow_1").register();
@@ -309,7 +320,7 @@ public class CommonProxy {
         new ItemWeapon("itemAquila02", "kmrp_items:aquila02").register();
         new ItemWeapon("itemAquila03", "kmrp_items:aquila03").register();
 
-        NetworkRegistry.INSTANCE.registerGuiHandler(instance, new InventoryGuiHandler());
+                NetworkRegistry.INSTANCE.registerGuiHandler(instance, new InventoryGuiHandler());
     }
 
     public void registerServerCommands(FMLServerStartingEvent event) {
