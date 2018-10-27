@@ -28,6 +28,12 @@ item.itemshpaga.name=Шпага
 item.itemthr_axe.name=Метательный топор
 item.itemtwo_hand_sword.name=Цвайхандер
 item.itemflail.name=Цеп
+item.itemStiletto.name=Стилет
+item.itemStiletto2.name=Стилет (2)
+item.itemScalpel.name=Скальпель
+item.itemSword.name=Меч
+
+item.itemIgnot.name=Слиток (красится)
 
 //Creative
 itemGroup.KMRPSimpleTab=KMRP Items Tab

@@ -285,7 +285,7 @@ public class CommonProxy {
         new ItemWeapon("itemKitchenKnife", "kmrp_items:kitchen_knife").register();
         new ItemWeapon("itemStiletto", "kmrp_items:stiletto").register();
         new ItemWeapon("itemStiletto2", "kmrp_items:stiletto2").register();
-
+	new ItemWeapon("itemSword", "kmrp_items:sword").register();
 
         // Bows
         new ItemWeapon("itemBow01", "kmrp_items:bow_1").register();
