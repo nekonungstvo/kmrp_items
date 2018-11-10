@@ -32,6 +32,12 @@ item.itemStiletto.name=Стилет
 item.itemStiletto2.name=Стилет (2)
 item.itemScalpel.name=Скальпель
 item.itemSword.name=Меч
+item.itemMushroom1.name=Гриб
+item.itemMushroom2.name=Гриб
+item.itemMushroom3.name=Гриб
+item.itemMushroom4.name=Гриб
+item.itemShot_glass,name=Стопка
+
 
 item.itemIgnot.name=Слиток (красится)
 

@@ -67,6 +67,9 @@ public class CommonProxy {
         new ItemSimple("itemHourglass", "kmrp_items:hourglass").register();
         new ItemSimple("itemSwine", "kmrp_items:swine").register();
 
+        new ItemSimple("itemScalpel", "kmrp_items:scalpel").register();
+        new ItemSimple("itemShot_glass", "kmrp_items:shot_glass").register();
+
         new ItemSimple(
                 "itemSpoon",
                 "kmrp_items:spoon"
@@ -82,13 +85,35 @@ public class CommonProxy {
                 "kmrp_items:cloth",
                 "kmrp_items:cloth"
         ).register();
-        new ItemSimple("itemScalpel", "kmrp_items:scalpel").register();
         new ItemSimple(
                 "itemIgnot", 
                 "kmrp_items:ignot",
-                "kmrp_items:ignot_overlay"
+                "kmrp_items:ignot"
         ).register();
 
+        new ItemSimple(
+		"itemMushroom_1", 
+		"kmrp_items:mushroom_1",
+		"kmrp_items:mushroom_1_overlay"
+	).register();
+
+        new ItemSimple(
+		"itemMushroom_2", 
+		"kmrp_items:mushroom_2",
+		"kmrp_items:mushroom_2_overlay"
+	).register();
+
+        new ItemSimple(
+		"itemMushroom_3", 
+		"kmrp_items:mushroom_3",
+		"kmrp_items:mushroom_3_overlay"
+	).register();
+
+	new ItemSimple(
+		"itemMushroom_4", 
+		"kmrp_items:mushroom_4",
+		"kmrp_items:mushroom_4_overlay"
+	).register();
 
         // Containers
         new ItemInventory("itemSack", "kmrp_items:sack").register();
