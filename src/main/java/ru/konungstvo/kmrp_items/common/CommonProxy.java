@@ -68,7 +68,25 @@ public class CommonProxy {
         new ItemSimple("itemSwine", "kmrp_items:swine").register();
 
         new ItemSimple("itemScalpel", "kmrp_items:scalpel").register();
-        new ItemSimple("itemShot_glass", "kmrp_items:shot_glass").register();
+        new ItemSimple("itemShotGlass", "kmrp_items:shot_glass").register();
+
+
+        new ItemSimple("itemTricorne", "kmrp_items:tricorne").register();
+        new ItemSimple("itemDrum", "kmrp_items:drum").register();
+        new ItemSimple("itemSheath", "kmrp_items:sheath").register();
+        new ItemSimple("itemDeerHide", "kmrp_items:deer_hide").register();
+        new ItemSimple("itemBoarHide", "kmrp_items:boar_hide").register();
+        new ItemSimple("itemCowHide", "kmrp_items:cow_hide").register();
+        new ItemSimple("itemSheepHide", "kmrp_items:sheep_hide").register();
+        new ItemSimple("itemPigSkin", "kmrp_items:pig_skin").register();
+        new ItemSimple("itemBrain", "kmrp_items:brain").register();
+        new ItemSimple("itemVestalkaMace", "kmrp_items:vestalka_mace").register();
+        new ItemSimple("itemTannin", "kmrp_items:tannin").register();
+        new ItemSimple("itemSickle", "kmrp_items:sickle").register();
+        new ItemSimple("itemHolySymbol", "kmrp_items:holy_symb1").register();
+        new ItemSimple("itemHolySymbol2", "kmrp_items:holy_symb2").register();
+        new ItemSimple("itemHolySymbol3", "kmrp_items:holy_symb3").register();
+        new ItemSimple("itemStrangeStick", "kmrp_items:strange_stick").register();
 
         new ItemSimple(
                 "itemSpoon",
@@ -140,6 +158,11 @@ public class CommonProxy {
         new ItemInventory("itemTeapot01", "kmrp_items:teapot01").register();
         new ItemInventory("itemTeapot02", "kmrp_items:teapot02").register();
         new ItemInventory("itemTeapot03", "kmrp_items:teapot03").register();
+
+        new ItemInventory("itemCigarettePack", "kmrp_items:cigarette_pack").register();
+        new ItemInventory("itemSuitcase", "kmrp_items:suitcase").register();
+        new ItemInventory("itemKeychain", "kmrp_items:keychain").register();
+
 
         new ItemInventory(
                 "itemBag",
@@ -278,6 +301,24 @@ public class CommonProxy {
                 "kmrp_items:crystal"
         ).register();
 
+        new ItemSimple(
+                "itemTricorneColor",
+                "kmrp_items:tricorne_color",
+                "kmrp_items:tricorne_color"
+        ).register();
+
+        new ItemSimple(
+                "itemDress",
+                "kmrp_items:dress",
+                "kmrp_items:dress"
+        ).register();
+
+        new ItemSimple(
+                "itemSkirt",
+                "kmrp_items:skirt",
+                "kmrp_items:skirt"
+        ).register();
+
         // Weapons
         KMRPWeaponTab.setTabIconItem(
                 new ItemWeapon("itemscimitar", "kmrp_items:scimitar").register()
@@ -310,7 +351,8 @@ public class CommonProxy {
         new ItemWeapon("itemKitchenKnife", "kmrp_items:kitchen_knife").register();
         new ItemWeapon("itemStiletto", "kmrp_items:stiletto").register();
         new ItemWeapon("itemStiletto2", "kmrp_items:stiletto2").register();
-	new ItemWeapon("itemSword", "kmrp_items:sword").register();
+	    new ItemWeapon("itemSword", "kmrp_items:sword").register();
+        new ItemWeapon("itemCrossbow", "kmrp_items:crossbow").register();
 
         // Bows
         new ItemWeapon("itemBow01", "kmrp_items:bow_1").register();

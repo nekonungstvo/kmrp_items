@@ -32,14 +32,34 @@ item.itemStiletto.name=Стилет
 item.itemStiletto2.name=Стилет (2)
 item.itemScalpel.name=Скальпель
 item.itemSword.name=Меч
-item.itemMushroom1.name=Гриб
-item.itemMushroom2.name=Гриб
-item.itemMushroom3.name=Гриб
-item.itemMushroom4.name=Гриб
-item.itemShot_glass,name=Стопка
+item.itemMushroom_1.name=Гриб
+item.itemMushroom_2.name=Гриб
+item.itemMushroom_3.name=Гриб
+item.itemMushroom_4.name=Гриб
+item.itemShotGlass.name=Стопка
+item.itemGoblet.name=Кубок
 
 
 item.itemIgnot.name=Слиток (красится)
+item.itemTricorne.name=Треуголка
+item.itemTricorneColor.name=Треуголка (красится)
+item.itemSkirt.name=Юбка (красится)
+item.itemDress.name=Платье (красится)
+item.itemSheath.name=Ножны
+item.itemDrum.name=Барабан
+item.itemCrossbow.name=Арбалет
+item.itemCigarettePack.name=Пачка сигарет
+item.itemSuitcase.name=Чемодан
+item.itemKeychain.name=Связка ключей
+item.itemCowHide.name=Коровья шкура
+item.itemDeerHide.name=Оленья шкура
+item.itemBoarHide.name=Шкура борова
+item.itemSheepHide.name=Овечья шкура
+item.itemPigSkin.name=Свиная кожа
+item.itemBrain.name=Мозги
+item.itemTannin.name=Танин
+item.itemSickle.name=Серп
+item.itemStrangeStick.name=Странная продолговатая штука
 
 //Creative
 itemGroup.KMRPSimpleTab=KMRP Items Tab
