@@ -80,7 +80,6 @@ public class CommonProxy {
         new ItemSimple("itemSheepHide", "kmrp_items:sheep_hide").register();
         new ItemSimple("itemPigSkin", "kmrp_items:pig_skin").register();
         new ItemSimple("itemBrain", "kmrp_items:brain").register();
-        new ItemSimple("itemVestalkaMace", "kmrp_items:vestalka_mace").register();
         new ItemSimple("itemTannin", "kmrp_items:tannin").register();
         new ItemSimple("itemSickle", "kmrp_items:sickle").register();
         new ItemSimple("itemHolySymbol", "kmrp_items:holy_symb1").register();
@@ -353,6 +352,7 @@ public class CommonProxy {
         new ItemWeapon("itemStiletto2", "kmrp_items:stiletto2").register();
 	    new ItemWeapon("itemSword", "kmrp_items:sword").register();
         new ItemWeapon("itemCrossbow", "kmrp_items:crossbow").register();
+        new ItemWeapon("itemVestalkaMace", "kmrp_items:vestalka_mace").register();
 
         // Bows
         new ItemWeapon("itemBow01", "kmrp_items:bow_1").register();
