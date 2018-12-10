@@ -68,7 +68,7 @@ public class CommonProxy {
         new ItemSimple("itemSwine", "kmrp_items:swine").register();
 
         new ItemSimple("itemScalpel", "kmrp_items:scalpel").register();
-        new ItemSimple("itemShotGlass", "kmrp_items:shot_glass").register();
+        new ItemSimple("itemShot_glass", "kmrp_items:shot_glass").register();
 
 
         new ItemSimple("itemTricorne", "kmrp_items:tricorne").register();
