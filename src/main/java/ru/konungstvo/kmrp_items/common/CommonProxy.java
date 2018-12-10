@@ -85,7 +85,6 @@ public class CommonProxy {
         new ItemSimple("itemHolySymbol", "kmrp_items:holy_symb1").register();
         new ItemSimple("itemHolySymbol2", "kmrp_items:holy_symb2").register();
         new ItemSimple("itemHolySymbol3", "kmrp_items:holy_symb3").register();
-        new ItemSimple("itemStrangeStick", "kmrp_items:strange_stick").register();
 
         new ItemSimple(
                 "itemSpoon",

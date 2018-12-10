@@ -59,7 +59,6 @@ item.itemPigSkin.name=Свиная кожа
 item.itemBrain.name=Мозги
 item.itemTannin.name=Танин
 item.itemSickle.name=Серп
-item.itemStrangeStick.name=Странная продолговатая штука
 
 //Creative
 itemGroup.KMRPSimpleTab=KMRP Items Tab
