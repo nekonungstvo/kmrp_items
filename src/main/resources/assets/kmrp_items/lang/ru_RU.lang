@@ -59,6 +59,8 @@ item.itemPigSkin.name=Свиная кожа
 item.itemBrain.name=Мозги
 item.itemTannin.name=Танин
 item.itemSickle.name=Серп
+item.itemHalo.name=Нимб
+item.itemCookie.name=Печенье
 
 item.itemAlembic.name=Перегонный куб
 item.itemBalanceScales.name=Весы

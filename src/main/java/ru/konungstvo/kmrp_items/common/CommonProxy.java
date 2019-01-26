@@ -85,6 +85,7 @@ public class CommonProxy {
         new ItemSimple("itemHolySymbol", "kmrp_items:holy_symb1").register();
         new ItemSimple("itemHolySymbol2", "kmrp_items:holy_symb2").register();
         new ItemSimple("itemHolySymbol3", "kmrp_items:holy_symb3").register();
+        new ItemSimple("itemHalo", "kmrp_items:halo").register();
 
         new ItemSimple("itemBalanceScales", "kmrp_items:balance_scales").register();
         new ItemSimple("itemGasFilter", "kmrp_items:gas_filter").register();
@@ -177,6 +178,7 @@ public class CommonProxy {
         new ItemInventory("itemCigarettePack", "kmrp_items:cigarette_pack").register();
         new ItemInventory("itemSuitcase", "kmrp_items:suitcase").register();
         new ItemInventory("itemKeychain", "kmrp_items:keychain").register();
+        new ItemInventory("itemCookie", "kmrp_items:cookie").register();
 
         new ItemInventory("itemAlembic", "kmrp_items:alembic").register();
         new ItemInventory("itemMortarAndPestle", "kmrp_items:mortar_and_pestle").register();
