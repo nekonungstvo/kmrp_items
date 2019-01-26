@@ -86,6 +86,10 @@ public class CommonProxy {
         new ItemSimple("itemHolySymbol2", "kmrp_items:holy_symb2").register();
         new ItemSimple("itemHolySymbol3", "kmrp_items:holy_symb3").register();
 
+        new ItemSimple("itemBalanceScales", "kmrp_items:balance_scales").register();
+        new ItemSimple("itemGasFilter", "kmrp_items:gas_filter").register();
+        new ItemSimple("itemWeight", "kmrp_items:weight").register();
+
         new ItemSimple(
                 "itemSpoon",
                 "kmrp_items:spoon"
@@ -131,6 +135,19 @@ public class CommonProxy {
 		"kmrp_items:mushroom_4_overlay"
 	).register();
 
+        new ItemSimple(
+                "itemColorlessSkin",
+                "kmrp_items:colorless_skin",
+                "kmrp_items:colorless_skin"
+        ).register();
+
+        new ItemSimple(
+                "itemHerb1",
+                "kmrp_items:herb_1",
+                "kmrp_items:herb_1_overlay"
+        ).register();
+
+
         // Containers
         new ItemInventory("itemSack", "kmrp_items:sack").register();
         new ItemInventory("itemInkwell", "kmrp_items:inkwell").register();
@@ -160,6 +177,13 @@ public class CommonProxy {
         new ItemInventory("itemCigarettePack", "kmrp_items:cigarette_pack").register();
         new ItemInventory("itemSuitcase", "kmrp_items:suitcase").register();
         new ItemInventory("itemKeychain", "kmrp_items:keychain").register();
+
+        new ItemInventory("itemAlembic", "kmrp_items:alembic").register();
+        new ItemInventory("itemMortarAndPestle", "kmrp_items:mortar_and_pestle").register();
+        new ItemInventory("itemRetort", "kmrp_items:retort").register();
+        new ItemInventory("itemBeaker", "kmrp_items:beaker").register();
+        new ItemInventory("itemWoodenPlate", "kmrp_items:wooden_plate").register();
+        new ItemInventory("itemWoodenBucket", "kmrp_items:wooden_bucket").register();
 
 
         new ItemInventory(

@@ -60,6 +60,17 @@ item.itemBrain.name=Мозги
 item.itemTannin.name=Танин
 item.itemSickle.name=Серп
 
+item.itemAlembic.name=Перегонный куб
+item.itemBalanceScales.name=Весы
+item.itemBeaker.name=Мензурка
+item.itemColorlessSkin.name=Шкура (красится)
+item.itemGasFilter.name=Газовый фильтр
+item.itemMortarAndPestle.name=Ступка и пестик
+item.itemRetort.name=Реторта
+item.itemWeight.name=Гиря (для весов)
+item.itemWoodenBucket.name=Деревянное ведро
+item.itemWoodenPlate.name=Деревянная тарелка
+
 //Creative
 itemGroup.KMRPSimpleTab=KMRP Items Tab
 itemGroup.KMRPWeaponTab=KMRP Weapon Tab
