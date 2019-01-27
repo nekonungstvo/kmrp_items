@@ -90,6 +90,7 @@ public class CommonProxy {
         new ItemSimple("itemBalanceScales", "kmrp_items:balance_scales").register();
         new ItemSimple("itemGasFilter", "kmrp_items:gas_filter").register();
         new ItemSimple("itemWeight", "kmrp_items:weight").register();
+        new ItemSimple("itemPauldron", "kmrp_items:pauldron").register();
 
         new ItemSimple(
                 "itemSpoon",
@@ -187,6 +188,13 @@ public class CommonProxy {
         new ItemInventory("itemWoodenPlate", "kmrp_items:wooden_plate").register();
         new ItemInventory("itemWoodenBucket", "kmrp_items:wooden_bucket").register();
 
+
+        new ItemInventory("itemCarcass1", "kmrp_items:carcass1").register();
+        new ItemInventory("itemCarcass2", "kmrp_items:carcass2").register();
+        new ItemInventory("itemCarcass3", "kmrp_items:carcass3").register();
+        new ItemInventory("itemCarcass4", "kmrp_items:carcass4").register();
+        new ItemInventory("itemCarcass5", "kmrp_items:carcass5").register();
+        new ItemInventory("itemCarcass6", "kmrp_items:carcass6").register();
 
         new ItemInventory(
                 "itemBag",

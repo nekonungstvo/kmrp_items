@@ -73,6 +73,14 @@ item.itemWeight.name=Гиря (для весов)
 item.itemWoodenBucket.name=Деревянное ведро
 item.itemWoodenPlate.name=Деревянная тарелка
 
+item.itemCarcass1.name=Туша
+item.itemCarcass2.name=Туша
+item.itemCarcass3.name=Туша
+item.itemCarcass4.name=Туша
+item.itemCarcass5.name=Туша
+item.itemCarcass6.name=Туша
+item.itemPauldron.name=Наплечник
+
 //Creative
 itemGroup.KMRPSimpleTab=KMRP Items Tab
 itemGroup.KMRPWeaponTab=KMRP Weapon Tab
