@@ -62,6 +62,18 @@ item.itemSickle.name=Серп
 item.itemHalo.name=Нимб
 item.itemCookie.name=Печенье
 
+item.itemBarrel.name=Бочонок
+item.itemCasket2.name=Коробка
+item.itemCup.name=Чашка
+item.itemMagnifier.name=Лупа
+item.itemMetalSheet.name=Металлический лист (красится)
+item.itemPlate.name=Тарелка
+item.itemWoodenShotGlass.name=Стопка
+item.itemWoodenFork2.name=Вилка
+item.itemWoodenLadle.name=Половник
+item.itemWoodenSpatula.name=Лопаточка
+item.itemWoodenSpoon2.name=Ложка
+
 item.itemAlembic.name=Перегонный куб
 item.itemBalanceScales.name=Весы
 item.itemBeaker.name=Мензурка
@@ -80,6 +92,7 @@ item.itemCarcass4.name=Туша
 item.itemCarcass5.name=Туша
 item.itemCarcass6.name=Туша
 item.itemPauldron.name=Наплечник
+item.itemMeatBow.name=Мясной лук
 
 //Creative
 itemGroup.KMRPSimpleTab=KMRP Items Tab

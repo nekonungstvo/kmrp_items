@@ -92,6 +92,12 @@ public class CommonProxy {
         new ItemSimple("itemWeight", "kmrp_items:weight").register();
         new ItemSimple("itemPauldron", "kmrp_items:pauldron").register();
 
+        new ItemSimple("itemMagnifier", "kmrp_items:magnifier").register();
+        new ItemSimple("itemWoodenFork2", "kmrp_items:wooden_fork2").register();
+        new ItemSimple("itemWoodenLadle", "kmrp_items:wooden_ladle").register();
+        new ItemSimple("itemWoodenSpatula", "kmrp_items:wooden_spatula").register();
+        new ItemSimple("itemWoodenSpoon2", "kmrp_items:wooden_spoon2").register();
+
         new ItemSimple(
                 "itemSpoon",
                 "kmrp_items:spoon"
@@ -149,6 +155,11 @@ public class CommonProxy {
                 "kmrp_items:herb_1_overlay"
         ).register();
 
+        new ItemSimple(
+                "itemMetalSheet",
+                "kmrp_items:metal_sheet",
+                "kmrp_items:metal_sheet"
+        ).register();
 
         // Containers
         new ItemInventory("itemSack", "kmrp_items:sack").register();
@@ -195,6 +206,15 @@ public class CommonProxy {
         new ItemInventory("itemCarcass4", "kmrp_items:carcass4").register();
         new ItemInventory("itemCarcass5", "kmrp_items:carcass5").register();
         new ItemInventory("itemCarcass6", "kmrp_items:carcass6").register();
+
+
+        new ItemInventory("itemBarrel", "kmrp_items:barrel").register();
+        new ItemInventory("itemCasket2", "kmrp_items:casket2").register();
+        new ItemInventory("itemCup", "kmrp_items:cup").register();
+        new ItemInventory("itemPlate", "kmrp_items:wooden_plate2").register();
+        new ItemInventory("itemWoodenShotGlass", "kmrp_items:wooden_shot_glass").register();
+
+
 
         new ItemInventory(
                 "itemBag",
@@ -395,6 +415,7 @@ public class CommonProxy {
         new ItemWeapon("itemLongBow01", "kmrp_items:bow_1").register();
         new ItemWeapon("itemLongBow02", "kmrp_items:bow_2").register();
         new ItemWeapon("itemLongBow03", "kmrp_items:bow_3").register();
+        new ItemWeapon("itemMeatBow", "kmrp_items:meat_bow").register();
 
         // Elven weapon
         new ItemWeapon("itemElvenDagger", "kmrp_items:elven_dagger").register();
