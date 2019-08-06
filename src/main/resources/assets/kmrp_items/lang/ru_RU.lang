@@ -32,10 +32,13 @@ item.itemStiletto.name=Стилет
 item.itemStiletto2.name=Стилет (2)
 item.itemScalpel.name=Скальпель
 item.itemSword.name=Меч
-item.itemMushroom_1.name=Гриб
-item.itemMushroom_2.name=Гриб
-item.itemMushroom_3.name=Гриб
-item.itemMushroom_4.name=Гриб
+item.itemMushroom_1.name=Гриб (красится)
+item.itemMushroom_2.name=Гриб (красится)
+item.itemMushroom_3.name=Гриб (красится)
+item.itemMushroom_4.name=Гриб (красится)
+item.itemMushroom_5.name=Гриб (красится)
+item.itemMushroom_6.name=Гриб (красится)
+item.itemMushroom_7.name=Гриб (красится)
 item.itemShot_glass.name=Стопка
 item.itemGoblet.name=Кубок
 
@@ -93,6 +96,22 @@ item.itemCarcass5.name=Туша
 item.itemCarcass6.name=Туша
 item.itemPauldron.name=Наплечник
 item.itemMeatBow.name=Мясной лук
+
+item.itemMesser.name=Мессер
+item.itemBuckler.name=Баклер
+item.itemColorlessGrape.name=Виноград (красится)
+
+item.itemCork.name=Пробка
+item.itemMatch.name=Спичка
+item.itemMatchBox.name=Спичечный коробок
+item.itemDice.name=Игральная кость (красится)
+item.itemMuselet.name=Мюзле (красится)
+item.itemTeapot04.name=Глиняный чайник
+item.itemGemBaguette.name=Огранённый камень (красится)
+item.itemGemFrench.name=Огранённый камень (красится)
+item.itemGemSquare.name=Огранённый камень (красится)
+item.itemGemRaw.name=Необработанный камень (красится)
+
 
 //Creative
 itemGroup.KMRPSimpleTab=KMRP Items Tab
